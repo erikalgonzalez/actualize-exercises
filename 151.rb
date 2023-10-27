@@ -11,9 +11,7 @@ def display_dogsarecool_screen
     puts "|       ||       ||   |_| | _____| |  |   _   ||   |  | ||   |___   |     |_ |       ||       ||       |"
     puts "|______| |_______||_______||_______|  |__| |__||___|  |_||_______|  |_______||_______||_______||_______|"
 end     
-if dog_breed = 0.to_s
-    display_dogsarecool_screen
-end
+display_dogsarecool_screen
 
 # QUESTION 2
 # When you run the code below, it should print lyrics. 
@@ -25,7 +23,4 @@ def display_print_lyrics
     puts "And I'd like to take a minute, just sit right there"
     puts "I'll tell you how I became the prince of a town called Bel-Air"
 end
-if print_lyrics = 0.to_s
-    display_print_lyrics
-end
-  
+display_print_lyrics 
