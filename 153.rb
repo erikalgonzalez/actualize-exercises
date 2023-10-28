@@ -23,6 +23,6 @@ class StoreItem
     @price = input_price
     end
 end
-storeitem = StoreItem.new("chair", 100)
-pp storeitem
+store_item = StoreItem.new("chair", 100)
+pp store_item
    
