@@ -6,21 +6,22 @@ if x == 10 && y == 10 # 3
   x = 10              
   y = 10              
 end                   
-if x == 10 || y == 10 # 4
+if x == 10 || y == 10 # 4 7
   x = x + y           # 5
   y = x + y           # 6
 end                   
-p = x                 # 7
-p = y                 # 8
+p x                   # 8
+p y                   # 9
 
 # 1: x is 10
 # 2: x is 10, y is 4
 # 3: x equal 10 but y does not equal 10, it is false so we end
-# 4: x equals 10 and y equals 10, it is true so we continue
-# 5: x equals 20 and y equals 10, it is true so we continue
-# 6: x equals 20 and y equals 20, it is false so we end
-# 7: print x
-# 8: print y
+# 4: x equals 10 and y does not equal 10, it is true so we continue
+# 5: x is 14 and y is 4
+# 6: x is 14 and y is 18
+# 7: x does not equal 10 and y does not equal 10, end
+# 8: print x
+# 9: print y
 
 
 # QUESTION 2
