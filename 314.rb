@@ -20,15 +20,4 @@ def piglatin
   word = sent.slpit(' ')
   if vowels.include?(word[0])
 end 
-# def piglatin
-#   a = string.split(" ")
-#   b = a.map {|word| piglatin_word(word)}
-#   b.join(" ")
-# end 
-# def piglatin_word
-#   firstletter = word[0].downcase
-#   if firstletter =="a" || firstletter == "e" || firstletter == "i" || firstletter == "o" || firstletter == "u"
-#     "#{word}ay"
-#   end
-# end
 
