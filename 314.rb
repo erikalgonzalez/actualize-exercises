@@ -12,12 +12,54 @@
 # Write a program that asks the user to enter a single word 
 # and prints out the Pig Latin version of that word.
 
-puts "Enter a word and I will show you how it looks in Pig Latin."
-def piglatin
-  alphabet = ('a'..'z').to_a
-  vowels = ['a', 'e', 'i', 'o', 'u']
-  constants = alphabet - vowels
-  word = sent.slpit(' ')
-  if vowels.include?(word[0])
+# Write a program that asks the user to enter a single word.
+puts "Enter a word:"
+word = "desserts"
+
+# Write a program that asks the user to enter a single word, then print that word with each character split into an array.
+letters = word.split(//)
+
+# Write a program that asks the user to enter a single word, then print each letter of the word one at a time.
+index = 0
+while index < letters.length
+  p letters[index]
+  index = index + 1
 end 
 
+# Write a program that asks the user to enter a single word, then prints the word without the first letter.
+index = 1
+while index < letters.length
+  p letters[index]
+  index = index +1 
+end 
+
+# Write a program that asks the user to enter a single word, and prints only the first letter.
+first_letter = letters[0]
+
+# Write a program that asks the user to enter a single word, and add an "ay" to first letter.
+p first_letter + "ay"
+
+# Write a program that asks the user to enter a word, and add letters to new array with loop.
+first_letter = letters[0]
+pigged = []
+index = 1
+while index < letters.length
+  pigged << letters[index]
+  index = index + 1
+end
+p pigged
+p first_letter + "ay"
+
+#  Write a program that asks the user to enter a word, then prints the Pig Latin version of that word.
+puts puts "Enter a word:"
+word = gets.chomp
+letters = word.split(//)
+first_letter = letters[0]
+pigged = []
+index = 1
+while index < letters.length
+  pigged.push(letters[index])
+index = index + 1
+end 
+latined = pigged.push(first_letter + "ay")
+p latined.join()
