@@ -10,15 +10,17 @@
 # Note: If you run the code p 9 / 2, it prints 4 even though the result should be 4.5. 
 # This is because when dividing integers in Ruby, the result will be an integer. 
 
-puts "Enter first number"
-number1 = gets.chomp.to_i
-puts "Enter second number"
-number2 = gets.chomp.to_i
-puts "Enter third number"
-number3 = gets.chomp.to_i
-puts "Enter fourth number"
-number4 = gets.chomp.to_i
-puts "Enter fith number"
-number5 = gets.chomp.to_i
-average = (number1 + number2 + number3 + number4 + number5) / 5
-puts "Average is #{average}"
+
+numbers = []
+5.times do 
+  puts "Enter numbers:"
+  numbers << gets.chomp.to_i
+end 
+index = 0 
+sum = 0
+while index < numbers.length
+  sum = sum + numbers[index]
+  index = index + 1
+end 
+pp sum / numbers.length
+
