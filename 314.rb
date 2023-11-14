@@ -51,7 +51,7 @@ p pigged
 p first_letter + "ay"
 
 #  Write a program that asks the user to enter a word, then prints the Pig Latin version of that word.
-puts puts "Enter a word:"
+puts "Enter a word:"
 word = gets.chomp
 letters = word.split(//)
 first_letter = letters[0]
