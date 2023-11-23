@@ -1,0 +1,51 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0;
+  background-image: url(data:image/jpeg;base64,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
+  );
+  background-repeat: no-repeat;
+  background-size: 119em;
+}
+header{
+  background-image: url(https://favim.com/pd/p/orig/2018/11/13/dark-header-twitter-Favim.com-6525026.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 2vw 2em;
+}
+header a{
+  border: 1px solid #e81c4f;
+  border-radius: 10em;
+  color: white;
+  font-size: 0.60em;
+  padding: 0.40em 0.40em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition-property: color, background;
+  transition-duration: 200ms;
+}
+header a:hover{
+  background: #e81c4f;
+  color: white;
+}
+main{
+  max-width: 50em;
+  margin: 0 auto;
+  line-height: 1.5;
+  padding: 1em 1em;
+}
+h2{
+  margin-top: 1em;
+  padding-top: 1em;
+}
+h1,h2{
+  color: rgb(201,135,148)
+}
+p{
+  color: rgba(71, 161, 210, 0.899)
+}
+footer{
+  padding: 5em;
+}
