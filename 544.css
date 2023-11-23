@@ -1,0 +1,31 @@
+/* Style the tab buttons */
+.tablink {
+  background-color: #2257c0;
+  color: rgb(20, 189, 20);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: pink;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: black ;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Style each tab content individually */
+#London {background-color:tan;}
+#Paris {background-color: blue;}
+#Tokyo {background-color: red;}
+#Oslo {background-color: orange;}
